@@ -1,3 +1,4 @@
+package ca.georgiancollege2330;
 public class Main extends Application {
 
     @Override
