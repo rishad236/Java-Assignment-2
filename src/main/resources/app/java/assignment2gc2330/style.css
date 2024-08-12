@@ -1,0 +1,11 @@
+.table-view {
+    -fx-background-color: #F9F9F9;
+    -fx-border-color: #DDDDDD;
+}
+
+.table-column {
+    -fx-alignment: CENTER-LEFT;
+    -fx-padding: 10px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}

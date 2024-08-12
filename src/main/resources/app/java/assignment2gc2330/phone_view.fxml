@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege2330.PhoneViewController">
+    <TableView fx:id="phoneTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="brandColumn" text="Brand"/>
+            <TableColumn fx:id="modelColumn" text="Model"/>
+            <TableColumn fx:id="osColumn" text="OS"/>
+            <TableColumn fx:id="screenSizeColumn" text="Screen Size"/>
+            <TableColumn fx:id="priceColumn" text="Price"/>
+        </columns>
+    </TableView>
+</VBox>
